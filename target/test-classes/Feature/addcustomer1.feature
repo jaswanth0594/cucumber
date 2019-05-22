@@ -1,7 +1,8 @@
+@reg
 Feature: adding tarrif plans to the telecom website
   I want to use this template for my feature file
 
-  
+  @smoke @sanity
   Scenario: adding the plans
     Given the user need to open the browser
     When the user  fill the tarrif plan
